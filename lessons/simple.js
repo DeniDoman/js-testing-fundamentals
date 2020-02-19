@@ -2,14 +2,12 @@ const { sum, subtract } = require("../math");
 
 test("Sum should be ok", () => {
   const result = sum(3, 7);
-  const expected = 10;
-  expect(result).toBe(expected);
+  expect(result).toBe(10);
 });
 
 test("Subtraction should be ok", () => {
   const result = subtract(7, 3);
-  const expected = 4;
-  expect(result).toBe(expected);
+  expect(result).toBe(4);
 });
 
 function test(title, callback) {
